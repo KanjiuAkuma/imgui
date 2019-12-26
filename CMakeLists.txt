@@ -12,4 +12,3 @@ set(IMGUI_FILES
     )
 
 add_library(imgui STATIC ${IMGUI_FILES})
-target_include_directories(imgui PUBLIC ${CMAKE_CURRENT_LIST_DIR})
