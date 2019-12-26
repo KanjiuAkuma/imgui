@@ -11,4 +11,6 @@ set(IMGUI_FILES
     imgui_demo.cpp
     )
 
+# No sure if we need this
+add_definitions(-DIMGUI_IMPL_OPENGL_LOADER_GLAD)
 add_library(imgui STATIC ${IMGUI_FILES})
